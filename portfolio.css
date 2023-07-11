@@ -1,40 +1,127 @@
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0 200px;
+    ;
 
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-family: Open Sans;
     font-size: 45px;
     font-weight: 800;
 }
-.text-primary{
-    color:#c09fcd;
+
+.text-primary {
+    color: #c09fcd;
 
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
-  list-style: none;
-  margin-right:50px
+
+nav li {
+    list-style: none;
+    margin-right: 50px
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747
+    color: #474747
 }
-.btn-primary{
-    border-radius: 5px; background-color:#c09fcd;
-    width: 150px;
-    height: 64px;
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #c09fcd;
+    width: 100px;
+    height: 50px;
     flex-shrink: 0;
     border: 0;
-    color:white;
+    color: white;
+}
+
+.header {
+    background-color: #f1eaf3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+
+.banner-greeting {
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color:#757474
+}
+
+.about {
+    padding: 130px;
+    background-color: #f1eaf3;
+    margin-top: 130px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-des{
+    color:#757474;
+    text-align: center;
+    font-size: 18px;
+}
+main{
+   max-width: 1140px; 
+   margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around ;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color:#757575;
+}
+.info-description{
+    font-weight: 700;
 }
