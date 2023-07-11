@@ -88,7 +88,7 @@ nav a {
 .banner-des {
     margin-top: 0px;
     margin-bottom: 30px;
-    color:#757474
+    color: #757474
 }
 
 .about {
@@ -103,25 +103,100 @@ nav a {
     font-size: 35px;
     font-weight: 700;
 }
-.section-des{
-    color:#757474;
+
+.section-des {
+    color: #757474;
     text-align: center;
     font-size: 18px;
 }
-main{
-   max-width: 1140px; 
-   margin: 0 auto;
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-.info-title{
-    color:#757575;
+
+.info-title {
+    color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
+}
+
+.i-do {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skills {
+    padding: 151px 33px 30px 33px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin:10px;
+}
+
+.skills-des {
+    color:#757575
+}
+.res-col-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.res-container{
+    display: flex;
+    gap:50px;
+    margin:10px;
+
+}
+.res-item-title{
+    color: #474747;
+    margin-top:0px;
+}
+.res-item-intitute, .res-item-des{
+    color: #757575;
+}
+.res-item-intitute{
+    margin-bottom: 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    gap:100px;
+    background-color:#f1eaf3;
+    padding:130px 200px; 
+    margin-top:100px ;
+}
+.footer-col{
+    width:50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+   display: block; 
+   margin-bottom: 25px;
+   padding: 18px 35px;
+   color: #c09fcd;
+   border-radius: 5px;
+   background-color: #FFF;
+   border: 0; 
+   width:100%;
+}
+.social-link a{
+    margin-right: 25px;
 }
